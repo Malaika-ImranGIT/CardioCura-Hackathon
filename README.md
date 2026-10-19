@@ -92,6 +92,38 @@ The project is aligned with:
 
 The project supports the broader goal of improving health awareness and encouraging timely engagement with appropriate healthcare services.
 
+# AI Models and APIs Used
+**1. MobileNetV2 — Deep Learning**
+- Framework: TensorFlow/Keras.
+- Role: ECG image classification.
+- Implementation: TensorFlow's MobileNetV2 architecture and image preprocessing utilities.
+
+**2. Random Forest Classifier — Machine Learning**
+- Library: scikit-learn.
+- Role: Classification based on structured input features for the implemented cardiovascular assessment task.
+
+**3. Additional ML components**
+- XGBoost: Imported for gradient-boosting classification; include as an active model only if it is used in the submitted prediction pipeline.
+- SMOTE: Available through imbalanced-learn for addressing class imbalance during model training, if applied.
+
+**External AI prediction APIs:** No external AI APIs are used for the MobileNetV2 or Random Forest prediction components.
+
+**Translation and transliteration:** The application imports GoogleTranslator through deep_translator and the Aksharamukha transliteration library for language-related functionality. GoogleTranslator may call an external translation service; it should not be described as a locally hosted translation model.
+
+# CardioCura — Team Member Contribution
+**Team Member**
+Malaika Imran — Sole Developer
+**Contributions**
+ Project concept and development
+ Frontend and backend implementation
+ AI/ML/DL integration
+ Symptom-based and clinical assessment implementation
+ ECG analysis integration
+ Four-language interface
+ Testing, debugging, and project documentation
+ Presentation and project demonstration
+Team Structure: Individual Project
+
 ## Project Structure
 
 A simplified version of the application structure is provided below:
